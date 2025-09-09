@@ -13,6 +13,7 @@ int getIndex(char key[]){
     }
     return -1;
 }
+
 struct Car{
     char engine[15];
     char tyres[20];

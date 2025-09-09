@@ -94,6 +94,7 @@ public class Recursive {
                 current = current.next;
             }
             current.next = new Node(value);
+            this.lenght++;
         }
         public void traverse(){
             if(this.head.equals(null)){
